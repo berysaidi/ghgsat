@@ -1,0 +1,11 @@
+language: c
+
+arch:
+  - amd64
+  - arm64
+
+compiler: gcc
+
+script:
+    make build
+
